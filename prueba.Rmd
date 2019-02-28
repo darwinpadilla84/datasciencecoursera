@@ -1,0 +1,38 @@
+---
+title: "Climate analysis (Reproducible Research - Project 2)"
+author: "Darwin Padilla"
+date: "28 de febrero de 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Synopsis
+Through this analysis we will review weather events, data that were collected by the National Oceanic and Atmospheric Administration (NOAA), the interest we have in this analysis is the number of victims that these events have claimed, we call victims those people who This type of causes have suffered some injury, damage to property or even worse death.
+
+If you want to know more about the description of the variables, you can review the following documents.
+[National Weather Service](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf) and [National Climatic Data Center Storm Events](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf)
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+https://rpubs.com/robertreynolds77/142333
+
+https://rpubs.com/matrod/rresearch2
+
+http://rstudio-pubs-static.s3.amazonaws.com/25349_79a04a461e4c47fab7d25abd6589cab8.html
